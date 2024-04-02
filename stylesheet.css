@@ -1,0 +1,20 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px; /* Adjust the width as needed */
+}
+
+.square {
+    width: 25px; /* Adjust the width and height as needed */
+    height: 25px;
+    border: 1px solid black; 
+    /* Adjust the border as needed */
+    transition: background-color 0.3s;
+}
+
+.square:hover{
+    background-color:aqua;
+    opacity: 0.5;
+}
+
